@@ -1,0 +1,27 @@
+Credit Card Fraud Detection - Using Supervised and Unsupervised Techniques :
+
+Dataset : Creditcard
+
+importing the corresponding libraries and reading the dataset ,
+then perform Data Wrangling and Data pre-processing , after that we can train and test the model before establishing.
+
+*Supervised learning
+*Unsupervised learning
+
+The code uses the popular Credit Card Fraud Detection dataset, which contains transactions made by credit cards with features that are the result of a PCA transformation for privacy.
+Supervised Learning (Random Forest Classifier)
+I've implemented a Random Forest Classifier as the supervised learning technique. This is appropriate for fraud detection because:
+
+It handles imbalanced data well
+It's resistant to overfitting
+It provides feature importance rankings
+
+Unsupervised Learning (K-means Clustering)
+For the unsupervised approach, I've used K-means clustering to identify natural groupings in the data without using the fraud labels. This helps detect anomalies and patterns that might not be captured by supervised methods.
+Five Visualizations
+
+Class Distribution - Bar chart showing the imbalance between fraudulent and legitimate transactions
+Confusion Matrix - Heatmap displaying the model's prediction accuracy
+Feature Importance - Bar chart of the top 10 most influential features for prediction
+ROC Curve - Visualization of the classifier's performance across different thresholds
+Cluster Visualization - Scatter plot showing how K-means clustering groups the transactions compared to actual fraud/non-fraud labels
